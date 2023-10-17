@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kopi Gatheli</title>
+    <title>Kedai Gatheli</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,19 +23,27 @@
   <body>
     <!-- Navbar Start-->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Kopi<span>Gatheli</span>.</a>
+      <a href="#" class="navbar-logo">Kedai<span>Gatheli</span>.</a>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="coffee-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Seacrh from start  -->
+      <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Seacrh from end  -->
     </nav>
     <!-- Navbar End -->
 
@@ -114,6 +122,39 @@
     </section>
 
     <!-- Menu Section End -->
+
+  =
+
+    <!-- Products Section start -->
+
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span>Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia obcaecati dolorum earum similique, ad quasi?</p>
+    <div class="row">
+      <div class="product-cart">
+        <div class="prduct-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/pro1.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffe Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 50K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Products Section end -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
